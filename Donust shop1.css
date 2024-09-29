@@ -1,0 +1,107 @@
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Image styles - make images responsive */
+img {
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 85%; /* Agar gambar tidak lebih besar dari kontainernya */
+    height: auto; /* Agar proporsi gambar tetap terjaga */
+    display: block; /* Menghilangkan spasi di bawah gambar */
+}
+
+/* Kontainer welcome-section */
+.welcome-section {
+    text-align: center; /* Memusatkan teks dan gambar di dalam section */
+    padding: 2em;
+    background-color: #fff;
+    margin-bottom: 2em;
+}
+
+/* Gaya untuk elemen h2 dan p di dalam welcome-section */
+.welcome-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin: 0.5em 0;
+    text-align: center; /* Memastikan teks h2 dipusatkan */
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center; /* Memastikan teks paragraf dipusatkan */
+    margin: 0.5em 0;
+}
+
+
+/* Header styling */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('donuts.jpg');
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(34, 32, 131);
+}
+
+.hero .btn {
+    background-color: #ff6f61;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section styling */
+section.menu, section.checkout, section.success {
+    padding: 20px;
+}
+
+/* Product styling */
+.product {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.product h3 {
+    margin: 0;
+}
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6f61;
+    color: white;
+}
